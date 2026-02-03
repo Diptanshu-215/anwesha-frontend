@@ -412,14 +412,16 @@ function Anweshapass() {
 
                     <div>
                         <h2>Anwesha 2026 FESTIVAL Passes</h2>
-                        <h3>Own the Unforgettable Experience</h3>
+                        <h3>STEP INTO THE REVERIE</h3>
                     </div>
                     <p>
-                        As the night deepens, the echoes grow louder. Shadows dance, whispers slither through the air, and the abyss calls your name. This pass grants you entry into a realm where the eerie meets the extraordinary. Brace yourself for a night of spine-chilling performances, haunting melodies, and events that will test your courage.
+                        As the night blooms, the dreams grow vivid. Stardust dances, whispers of possibility float through the air, and the horizon calls your name. This pass grants you entry into a realm where the ethereal meets the eternal. Brace yourself for a night of soul-stirring performances, radiant melodies, and moments that feel like a waking dream.
+                        {/* As the night deepens, the echoes grow louder. Shadows dance, whispers slither through the air, and the abyss calls your name. This pass grants you entry into a realm where the eerie meets the extraordinary. Brace yourself for a night of spine-chilling performances, haunting melodies, and events that will test your courage. */}
                     </p>
-                    <p style={{ marginTop: '-15px' }}>🔮 Beware: Once you enter, there’s no turning back.
+                    <p style={{ marginTop: '-15px' }}>🔮 Beware: Embrace the magic: Once you enter, reality fades. Hold on to your pass... it is your only anchor in this ocean of dreams.
 
-                        Hold on to your pass… it may be the only thing keeping you from vanishing into the abyss.</p>
+                        {/* Hold on to your pass… it may be the only thing keeping you from vanishing into the abyss. */}
+                        </p>
                     <br />
                 </div>
 
@@ -529,16 +531,19 @@ function Anweshapass() {
 
                 <div className={styles.Melody_Night_hero}>
                     <div className={styles.Melody_Night_background} />
-                    {/* <div className={styles.Melody_Night_imgbg}><img src='/passes/melody_night_poster2.png' width="370"></img></div> */}
+                    <div className={styles.Melody_Night_imgbg}><img src='/passes/allartists.png' width="370"></img></div>
 
                 </div>
                 <div className={styles.Melody_Night_body}>
                     <div>
-                        <h2>Melody Night</h2>
+                        <h2 >Melody Night: Echoes of the Extraordinary</h2>
+                        {/* <h3>Darshan Raval | Nikhita Gandhi | Chaar Diwari</h3> */}
+                        <h3>Three Icons. One Stage. Infinite Vibes</h3>
 
                     </div>
                     <p>
-                        Dive into sonic bliss at our Melody night. Let DJs weave exhilarating beats on the dance floor, creating an unforgettable experience of pulsating rhythms. Join us for an immersive night of electronic enchantment with vibrant lights, energetic beats, and contagious energy.
+                        Prepare for a sonic explosion as three musical titans collide on the Anwesha stage! Experience the heart-tugging romance of Darshan Raval, the electric versatility of Nikhita Gandhi, and the raw, revolutionary energy of Chaar Diwari all in one place. From soulful Bollywood ballads to underground anthems, this isn't just a concert—it's a genre-bending journey you cannot miss. Join the crowd, feel the bass, and witness the biggest musical blockbuster of the year.
+                        {/* Dive into sonic bliss at our Melody night. Let DJs weave exhilarating beats on the dance floor, creating an unforgettable experience of pulsating rhythms. Join us for an immersive night of electronic enchantment with vibrant lights, energetic beats, and contagious energy. */}
                     </p>
                 </div>
             </section>
@@ -546,18 +551,23 @@ function Anweshapass() {
             {/* -------------------------------------DJ Night---------------------------------------- */}
 
             <section className={styles.cultural_Night}>
+                
                 <div className={styles.cultural_Night_body}>
+                    
                     <div>
-                        <h2>DJ Night</h2>
+                        <h2>Electric Euphoria: The Ultimate EDM Night</h2>
 
                     </div>
                     <p>
-                        Anwesha&apos;s DJ Night brings an electrifying fusion of beats and energy, headlined by the sensational DJ Anshika. Get ready to lose yourself in pulsating rhythms, high-energy drops, and an unforgettable night of non-stop music. With heart-thumping bass and a euphoric atmosphere, this night promises an experience where the crowd moves as one, the lights sync with the beats, and every moment turns into a memory. Let the music take control—DJ Night at Anwesha is where the night truly comes alive!
+                        Prepare for a sonic storm that will shake the ground beneath your feet! We are gearing up to unleash a night of pulsating beats, blinding lasers, and infectious energy that will turn the campus into one massive dance floor. The master of the console who will lead this audio-visual spectacle is yet to be revealed. Keep your eyes peeled—a massive headliner announcement is dropping soon to ignite the night!
+                        <hr></hr>
+                        Soon to be Announced!!
+                        {/* Anwesha&apos;s DJ Night brings an electrifying fusion of beats and energy, headlined by the sensational DJ Anshika. Get ready to lose yourself in pulsating rhythms, high-energy drops, and an unforgettable night of non-stop music. With heart-thumping bass and a euphoric atmosphere, this night promises an experience where the crowd moves as one, the lights sync with the beats, and every moment turns into a memory. Let the music take control—DJ Night at Anwesha is where the night truly comes alive! */}
                     </p>
                 </div>
                 <div className={styles.cultural_Night_hero}>
                     <div className={styles.cultural_Night_background} />
-                    {/* <div className={styles.cultural_Night_imgbg}><img src='' width="370"></img></div> */}
+                    <div className={styles.cultural_Night_imgbg}><img src='/passes/dj_night3.jpg' width="470"></img></div>
                 </div>
             </section>
 

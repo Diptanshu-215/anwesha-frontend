@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { DM_Serif_Display } from "next/font/google";
+import { DM_Serif_Display } from 'next/font/google'
 // import Link from 'next/link'
 // import { Josefin_Sans } from '@next/font/google'
 // import HomeBackgroundAnimation from '../components/Rive/homeBackgrounAnim'
@@ -29,9 +29,9 @@ import HeroSection from '../components/Hero/Hero'
 import { useRouter } from 'next/router'
 
 const dmSerif = DM_Serif_Display({
-    subsets: ["latin"],
-    weight: "400",
-});
+    subsets: ['latin'],
+    weight: '400',
+})
 
 const cn = (...classes) => {
     return classes.filter(Boolean).join(' ')
@@ -130,10 +130,10 @@ const BatLeft = ({ width = 85, height = 85 }) => {
             width={width}
             height={height}
             priority
-            style={{ transform: "rotate(-90deg)" }}
+            style={{ transform: 'rotate(-90deg)' }}
         />
-    );
-};
+    )
+}
 
 const BatRight = ({ width = 85, height = 85 }) => {
     return (
@@ -143,10 +143,10 @@ const BatRight = ({ width = 85, height = 85 }) => {
             width={width}
             height={height}
             priority
-            style={{ transform: "rotate(90deg)" }}
+            style={{ transform: 'rotate(90deg)' }}
         />
-    );
-};
+    )
+}
 // const BatRight = ({ width = 65, height = 85 }) => {
 //     return (
 //         <svg
@@ -265,7 +265,9 @@ const makePosterUrl = (url) => {
     }
 
     // If it's a relative path, prepend NEXT_PUBLIC_MEDIA_BASE
-    const mediaBase = process.env.NEXT_PUBLIC_MEDIA_BASE || 'https://storage.googleapis.com/anwesha-storage-bucket'
+    const mediaBase =
+        process.env.NEXT_PUBLIC_MEDIA_BASE ||
+        'https://storage.googleapis.com/anwesha-storage-bucket'
     return `${mediaBase}/${url}`
 }
 
@@ -340,7 +342,8 @@ const EventSlider = ({
             imageRefs.current[prevprev].current.style.zIndex = '1'
             imageRefs.current[
                 prevprev
-            ].current.style.transform = `translateY(-50%) translateX(calc(-50% - ${2 * offset
+            ].current.style.transform = `translateY(-50%) translateX(calc(-50% - ${
+                2 * offset
             }px))`
             imageRefs.current[prev].current.style.zIndex = '2'
             imageRefs.current[
@@ -357,7 +360,8 @@ const EventSlider = ({
             imageRefs.current[nextnext].current.style.zIndex = '-1'
             imageRefs.current[
                 nextnext
-            ].current.style.transform = `translateY(-50%) translateX(calc(-50% + ${2 * offset
+            ].current.style.transform = `translateY(-50%) translateX(calc(-50% + ${
+                2 * offset
             }px))`
         } else if (
             currIndex === oldIndex - 1 ||
@@ -367,7 +371,8 @@ const EventSlider = ({
             imageRefs.current[prevprev].current.style.zIndex = '-1'
             imageRefs.current[
                 prevprev
-            ].current.style.transform = `translateY(-50%) translateX(calc(-50% - ${2 * offset
+            ].current.style.transform = `translateY(-50%) translateX(calc(-50% - ${
+                2 * offset
             }px))`
             imageRefs.current[prev].current.style.zIndex = '2'
             imageRefs.current[
@@ -384,7 +389,8 @@ const EventSlider = ({
             imageRefs.current[nextnext].current.style.zIndex = '1'
             imageRefs.current[
                 nextnext
-            ].current.style.transform = `translateY(-50%) translateX(calc(-50% + ${2 * offset
+            ].current.style.transform = `translateY(-50%) translateX(calc(-50% + ${
+                2 * offset
             }px))`
             imageRefs.current[nextnextnext].current.style.zIndex = '-1'
         }
@@ -441,8 +447,8 @@ const EventSlider = ({
                             index === currIndex
                                 ? '2'
                                 : index === prev || index === next
-                                    ? '1'
-                                    : '-1',
+                                ? '1'
+                                : '-1',
                         position: 'absolute',
                         left: '50%',
                         top: '50%',
@@ -451,11 +457,13 @@ const EventSlider = ({
                         transform:
                             index == currIndex
                                 ? `translateY(-50%) translateX(-50%)`
-                                : `translateY(-50%) translateX(calc(-50% ${currIndex > index ? '-' : '+'
-                                } min(50vw - 200px, ${(currIndex > index
-                                    ? currIndex - index
-                                    : index - currIndex) * offset
-                                }px)))`,
+                                : `translateY(-50%) translateX(calc(-50% ${
+                                      currIndex > index ? '-' : '+'
+                                  } min(50vw - 200px, ${
+                                      (currIndex > index
+                                          ? currIndex - index
+                                          : index - currIndex) * offset
+                                  }px)))`,
                         transition:
                             'transform .15s linear, width .15s linear, height .15s linear', // Smooth transition
                     }}
@@ -494,8 +502,9 @@ const SponsorsSlider = ({ images, animation_duration = -1 }) => {
                         position: 'absolute',
                         left: '100%',
                         // zIndex: 8,
-                        animationDelay: `${(duration / images.length) * index
-                            }s`,
+                        animationDelay: `${
+                            (duration / images.length) * index
+                        }s`,
                         animationDuration: `${duration}s`,
                         '--width': width,
                     }}
@@ -546,12 +555,14 @@ const ImagesSlider = ({
             imageRefs.current[prevprevprev].current.style.zIndex = '-1'
             imageRefs.current[
                 prevprevprev
-            ].current.style.transform = `translateX(calc(-50% + ${3 * offset
+            ].current.style.transform = `translateX(calc(-50% + ${
+                3 * offset
             }px))`
             imageRefs.current[prevprev].current.style.zIndex = '4'
             imageRefs.current[
                 prevprev
-            ].current.style.transform = `translateX(calc(-50% - ${2 * offset
+            ].current.style.transform = `translateX(calc(-50% - ${
+                2 * offset
             }px))`
             imageRefs.current[prev].current.style.zIndex = '3'
             imageRefs.current[
@@ -568,7 +579,8 @@ const ImagesSlider = ({
             imageRefs.current[nextnext].current.style.zIndex = '1'
             imageRefs.current[
                 nextnext
-            ].current.style.transform = `translateX(calc(-50% + ${2 * offset
+            ].current.style.transform = `translateX(calc(-50% + ${
+                2 * offset
             }px))`
         } else if (
             currIndex === oldIndex - 1 ||
@@ -578,7 +590,8 @@ const ImagesSlider = ({
             imageRefs.current[prevprev].current.style.zIndex = '1'
             imageRefs.current[
                 prevprev
-            ].current.style.transform = `translateX(calc(-50% - ${2 * offset
+            ].current.style.transform = `translateX(calc(-50% - ${
+                2 * offset
             }px))`
             imageRefs.current[prev].current.style.zIndex = '2'
             imageRefs.current[
@@ -595,12 +608,14 @@ const ImagesSlider = ({
             imageRefs.current[nextnext].current.style.zIndex = '4'
             imageRefs.current[
                 nextnext
-            ].current.style.transform = `translateX(calc(-50% + ${2 * offset
+            ].current.style.transform = `translateX(calc(-50% + ${
+                2 * offset
             }px))`
             imageRefs.current[nextnextnext].current.style.zIndex = '-1'
             imageRefs.current[
                 nextnextnext
-            ].current.style.transform = `translateX(calc(-50% - ${3 * offset
+            ].current.style.transform = `translateX(calc(-50% - ${
+                3 * offset
             }px))`
         }
         setOldIndex(currIndex)
@@ -655,11 +670,13 @@ const ImagesSlider = ({
                     style={{
                         position: 'absolute',
                         left: '50%',
-                        transform: `translateX(calc(-50% ${currIndex > index ? '-' : '+'
-                            } ${(currIndex > index
+                        transform: `translateX(calc(-50% ${
+                            currIndex > index ? '-' : '+'
+                        } ${
+                            (currIndex > index
                                 ? currIndex - index
                                 : index - currIndex) * offset
-                            }px))`,
+                        }px))`,
                         transition: 'transform 0.35s ease-in-out', // Smooth transition
                     }}
                 />
@@ -725,7 +742,8 @@ const IndexPage = () => {
     // body - events[<index>].name.split('#')[1]
     const pseudoEventImage = adjustList(
         events.map((event, idx) => {
-            const posterUrl = event.poster_file || event.poster || '/events/poster.png'
+            const posterUrl =
+                event.poster_file || event.poster || '/events/poster.png'
             console.log(`[HomePage] Event ${idx} poster:`, posterUrl)
             return {
                 url: posterUrl,
@@ -738,67 +756,40 @@ const IndexPage = () => {
 
     const router = useRouter()
 
-
     const sponsorImages = [
-        // Arista
-        'https://drive.google.com/uc?export=view&id=1dXMeVRz2jbkW4oFGbCYeNr2ooNPbx9Ox',
-
-        // State Bank of India
-        'https://drive.google.com/uc?export=view&id=1MLfxr5ipb_m3VUkNCiAB3sc00hxz5fi-',
-
-        // Indian Oil & XP95
-        'https://drive.google.com/uc?export=view&id=1S8D9eehYFohjFcOB4acJxmBgc2q8ZQNk',
-
-        // Spic Macay
-        'https://drive.google.com/uc?export=view&id=1a18oT-fdAI_A5oOjKEqAkJYqxsqHhFLf',
-
-        // Software Technology Parks of India
-        'https://drive.google.com/uc?export=view&id=1tCIRaCaE8h8jSht2kXvrOI8Df_5CSD42',
-
-        // Department of Industries
-        'https://drive.google.com/uc?export=view&id=1FOtkwzHkA74tK7uMzHYaxSbz8W-N40EN',
-
-        // Startup Bihar
-        'https://drive.google.com/uc?export=view&id=1Vbu1tCEMNPzoeOqpydOcOSxHlPzVz3up',
-
-        // Bihar Tourism
-        'https://drive.google.com/uc?export=view&id=1pRqsKrhyTbhOpnxnNOKNTVwQxW4krm-L',
-
-        // Public Health Engineering Department, Bihar
-        'https://drive.google.com/uc?export=view&id=1oX-0boxmmSYbzBAVuPGMzUujaru3wm5D',
-
-        // Bihar State AIDS Control Society
-        'https://drive.google.com/uc?export=view&id=1yCcmexPef2xI3lQXo7wJAzliDEyUIxh-',
-
-        // Bihar State Building Construction Corporation Limited
-        'https://drive.google.com/uc?export=view&id=12rzaQ86RQfHFE_T0XGc-c8uRi_sQILRZ',
-
-        // Ceigall India Limited
-        'https://drive.google.com/uc?export=view&id=1CxQTY0H12QpCqC0YziCUZrpCFTnZkTsB',
-
-        // KFC
-        'https://drive.google.com/uc?export=view&id=1wujyrcqa-j8QVYTJ8aA6NAP8mGQS2w5Z',
-
-        // Waffcha
-        'https://drive.google.com/uc?export=view&id=1mX_WeCIywRV838QPn8AywiEWTSXSzMbM',
-
-        // Konnifel
-        'https://drive.google.com/uc?export=view&id=1PSx1RqfdGkvXoKL4e11PuG8X_ORouj4Z',
-
-        // Garda Patna
-        'https://drive.google.com/uc?export=view&id=1VIItQYV-XlG0gld1B_Z1aRPyOmgqQVhV',
-
-        // Asian Times
-        'https://drive.google.com/uc?export=view&id=1vYUNAIOyvqXlwoeamDbfaq0aKHN7e5hc',
-
-        // Explore Bihar
-        'https://drive.google.com/uc?export=view&id=1qqUiTYE_DT4W2KjzodLJak9EE1R7TfLe',
-
-        // Patna Beats
-        'https://drive.google.com/uc?export=view&id=10oF_KynDEuXJTsiBOo-U1XBvMrAMMkeP',
-
-        // JioSaavn
-        'https://drive.google.com/uc?export=view&id=1X0KmGY2Y2jO8mEq3x3DoxqmCfd83ptWP',
+        'https://drive.google.com/uc?export=view&id=1l_vpcAfYAtr3AP4Md-paIDs8hCW63f8F',
+        'https://drive.google.com/uc?export=view&id=1OcvrKTeQ8phRXxsWu0YcyzoAab1mHR49',
+        'https://drive.google.com/uc?export=view&id=1PXcineBGikMCaFLUoTTuUQaym8pJ1Sc6',
+        'https://drive.google.com/uc?export=view&id=1Z5NoN4Vmqn1fIhUKDLP_sHYEq4q-94Yp',
+        'https://drive.google.com/uc?export=view&id=1SLrXJ80AVdQpPUF13I0b7NXbg1v7Nj_U',
+        'https://drive.google.com/uc?export=view&id=12QRWpz1VcmGWjpzEhJjY2nWklnMSPyB5',
+        'https://drive.google.com/uc?export=view&id=1URhEbkKWoYat8VcvzZRuklBAtnD42G_j',
+        'https://drive.google.com/uc?export=view&id=1k_iwlhOsIEFMw-iJ2YAh98QEDCHgtAi5',
+        'https://drive.google.com/uc?export=view&id=1tpyLgLBAxsmKnhxiXooqcf8GAKAMMIgM',
+        'https://drive.google.com/uc?export=view&id=18dIDe9EUzqScqL1_vAONFhAsGG4PmRF4',
+        'https://drive.google.com/uc?export=view&id=1TpQ19hmSOS2TNUJi6oidSw7Y602ft2El',
+        'https://drive.google.com/uc?export=view&id=1hWWaY3ziGTs2fAtamI4muzcRP4kQkD7G',
+        'https://drive.google.com/uc?export=view&id=15CbVUgi5i_ARRAtobM9_Pn2GjLyBjaAp',
+        'https://drive.google.com/uc?export=view&id=1XvW-FVYrOL8aZCsXs4Urw4FzEO7DMjBm',
+        'https://drive.google.com/uc?export=view&id=1MRbo4eu7KrYeSjq090nmItjAbv_OQEok',
+        'https://drive.google.com/uc?export=view&id=1sNg1jeEC5MRsFseSgM7VXPH8iwbBUTOD',
+        'https://drive.google.com/uc?export=view&id=1pNXnnkDvLYUYUqU7-dh_ZDxLqZToHjxn',
+        'https://drive.google.com/uc?export=view&id=1BqokvuSQnMepjv0y41KTlgcCKeaMuAWO',
+        'https://drive.google.com/uc?export=view&id=1CBELU9HNCW-9UPzF5aFNduSti6FT0WO-',
+        'https://drive.google.com/uc?export=view&id=1ER70uJpKmRnH8AWQN3xok84_Sesi5zHw',
+        'https://drive.google.com/uc?export=view&id=1WJ4_WS3-x-BqtCItSSqQ2AxtxNX723vm',
+        'https://drive.google.com/uc?export=view&id=1i3YuJQMgDqE6ig0JqZAEE0Fe_S9Kn0GD',
+        'https://drive.google.com/uc?export=view&id=1xcQdl747tYi3ZY3uxeecoVVXjHpLn0J_',
+        'https://drive.google.com/uc?export=view&id=18O2pdC3iAelrCxZATs-lZ1ySKyPR7nUp',
+        'https://drive.google.com/uc?export=view&id=1wMgI-ijHi7fF6IbNzxtfN-JHhUdUBXja',
+        'https://drive.google.com/uc?export=view&id=1eY1Kfmj6-48BvKbezYjLBLLxR5UD0-Dj',
+        'https://drive.google.com/uc?export=view&id=1pHeNDNOUVdQmBgv5012bWpeGXjZ6vOJu',
+        'https://drive.google.com/uc?export=view&id=1qJfVG_fdIyZxQrURGjUJIefdj_EXJnvX',
+        'https://drive.google.com/uc?export=view&id=1YhJLV3VoL9o4lNF8MSf0jqNmOr10EmRs',
+        'https://drive.google.com/uc?export=view&id=1UaIXFovMDArchg1xgKpO6jN6kx5Je2yD',
+        'https://drive.google.com/uc?export=view&id=1TewMkN2e3bI_-ahRpD3sWk5J_7hvnj2Q',
+        'https://drive.google.com/uc?export=view&id=1Y5m4LFHEMFWFDJPhsZSpIT02P0U8qU1e',
+        'https://drive.google.com/uc?export=view&id=1wKHW-An6PKqP-wBUqPStms4IFg_sH5aR',
     ]
 
     const [momentsActiveImageIndex, setMomentsActiveImageIndex] = useState(2) // don't set on boundary
@@ -906,7 +897,6 @@ const IndexPage = () => {
             </Head>
 
             <div className={styles.bg}>
-
                 <HeroSection className={styles.hero}>
                     {/* BACKGROUND VIDEO */}
                     <video
@@ -933,13 +923,19 @@ const IndexPage = () => {
 
                     <div className={styles.hero_button}>
                         <button
-                            className={cn(styles.sexy_button , styles.sexy_button_small)}
+                            className={cn(
+                                styles.sexy_button,
+                                styles.sexy_button_small
+                            )}
                             onClick={() => router.push('/userRegister')}
                         >
                             Register
                         </button>
                         <button
-                            className={cn(styles.sexy_button, styles.sexy_button_small)}
+                            className={cn(
+                                styles.sexy_button,
+                                styles.sexy_button_small
+                            )}
                             onClick={() => router.push('/anweshapass')}
                         >
                             Get Passes
@@ -947,17 +943,14 @@ const IndexPage = () => {
                     </div>
                 </HeroSection>
 
-
-
                 <div className={styles.fixed_bg}>
-
                     {/* Events */}
                     <section className={styles.events}>
                         <div className={styles.events_title}>
-
                             <div>
-                                <h2 className={dmSerif.className}>Explore the Events</h2>
-
+                                <h2 className={dmSerif.className}>
+                                    Explore the Events
+                                </h2>
                             </div>
                         </div>
                         <div className={styles.events_images_parent}>
@@ -999,35 +992,38 @@ const IndexPage = () => {
                     <section className={styles.merch} id="merch">
                         <div className={styles.merch_body}>
                             <div>
-                                <h2 className={dmSerif.className}>Anwesha 2026 Official Merchandise</h2>
+                                <h2 className={dmSerif.className}>
+                                    Anwesha 2026 Official Merchandise
+                                </h2>
                                 <h3>Own the Unforgettable Experience</h3>
                             </div>
                             <p>
-                                The designs are a fusion of elegance and innovation,
-                                capturing the true spirit of Anwesha. T-shirts are
-                                made of supreme quality with GSM 200 and 100%
-                                cotton, ensuring maximum comfort and durability.
-                                Hoodies are made from Premium Quality Woven Cotton
-                                with 350+ GSM cloth.
+                                The designs are a fusion of elegance and
+                                innovation, capturing the true spirit of
+                                Anwesha. T-shirts are made of supreme quality
+                                with GSM 200 and 100% cotton, ensuring maximum
+                                comfort and durability. Hoodies are made from
+                                Premium Quality Woven Cotton with 350+ GSM
+                                cloth.
                             </p>
                         </div>
                         <div className={styles.merch_hero}>
                             <div className={styles.merch_background} />
                             <div className={styles.merch_hero_fix}>
-                                <div className={styles.merch_tshirts}>
-                                </div>
+                                <div className={styles.merch_tshirts}></div>
                                 <div className={styles.merch_button}>
                                     <button
-                                        className={cn(styles.sexy_button,
-                                            styles.merch_grab_button)
+                                        className={cn(
+                                            styles.sexy_button,
+                                            styles.merch_grab_button
+                                        )}
+                                        onClick={() =>
+                                            window.open(
+                                                'https://docs.google.com/forms/d/e/1FAIpQLSduNP0wbd7_7VZQJn8QARluerDm3HjO1lXw7gYwupdx9wt5_Q/viewform?usp=send_form'
+                                            )
                                         }
-                                        // onClick={() =>
-                                        //     window.open(
-                                        //         'https://docs.google.com/forms/d/1B6yMQs6Y8UV5GDrnxYipGIrDWCY4mcZZvPVboi5Q1nU/edit'
-                                        //     )
-                                        // }
 
-                                        onClick={() => router.push('/merch')}
+                                        // onClick={() => router.push('/merch')}
                                     >
                                         GRAB NOW
                                     </button>
@@ -1039,7 +1035,9 @@ const IndexPage = () => {
                     {/* Anwesha Through the Lens */}
                     <section className={styles.moments}>
                         <div className={styles.sexy_title}>
-                            <h2 className={dmSerif.className}>Anwesha Through the Lens</h2>
+                            <h2 className={dmSerif.className}>
+                                Anwesha Through the Lens
+                            </h2>
                             <h3>Relive the Moments That Defined Us</h3>
                         </div>
                         <div className={styles.moments_images_parent}>
@@ -1093,44 +1091,33 @@ const IndexPage = () => {
                     {/* The Aftermovie */}
                     <section className={styles.aftermovie}>
                         <div className={styles.sexy_title}>
-                            <h2 className={dmSerif.className}>Anwesha 2025: The Aftermovie</h2>
+                            <h2 className={dmSerif.className}>
+                                Anwesha 2025: The Aftermovie
+                            </h2>
                             <h3>Last Year&apos;s Magic in 3 Minutes</h3>
                         </div>
+
                         <div className={styles.aftermovie_video}>
-
-                            <video
-                                ref={videoRef}
-                                autoPlay
-                                muted={isMuted}
-                                loop
-                                width={1226}
-                                height={607}
-                            >
-                                <source
-                                    src="https://astounding-madeleine-371471.netlify.app/assets/Anwesha25Aftermovie.mp4"
-                                    type="video/mp4"
-                                />
-                            </video>
-
-                            <div>
-                                <button
-                                    onClick={toggleMute}
-                                    style={{ width: 32, height: 32 }}
-                                >
-                                    {isMuted ? (
-                                        <MuteIcon width={32} height={32} />
-                                    ) : (
-                                        <UnmuteIcon width={32} height={32} />
-                                    )}
-                                </button>
-                            </div>
+                            <iframe
+                                width="1226"
+                                height="607"
+                                src="https://www.youtube.com/embed/WLTo_hYLc1A?autoplay=1&mute=1&loop=1&playlist=WLTo_hYLc1A&controls=1"
+                                title="A Glimpse into Anwesha 2025"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen
+                                style={{ borderRadius: '10px' }} // Optional: Adds rounded corners like modern players
+                            ></iframe>
                         </div>
                     </section>
 
                     {/* CTA or This Year's Theme */}
                     <section className={styles.cta}>
                         <div className={styles.sexy_title}>
-                            <h2 className={dmSerif.className}>This Year&apos;s Theme</h2>
+                            <h2 className={dmSerif.className}>
+                                This Year&apos;s Theme
+                            </h2>
                             <h3>Palingenesis reverie</h3>
                         </div>
                         <div className={styles.cta_body}>
@@ -1153,10 +1140,19 @@ const IndexPage = () => {
                             </div>
                             <div className={styles.cta_body_right}>
                                 <p>
-                                    From the hush of winter’s wane, Anwesha blooms when all seemed finished. Rising from the abyss, broken threads come together, and what once fractured begins to heal. Where the dark once called us, we now move toward the light, dreaming of becoming again.
+                                    From the hush of winter’s wane, Anwesha
+                                    blooms when all seemed finished. Rising from
+                                    the abyss, broken threads come together, and
+                                    what once fractured begins to heal. Where
+                                    the dark once called us, we now move toward
+                                    the light, dreaming of becoming again.
                                     <br />
                                     <br />
-                                    Anwesha returns not as an ending, but as a rebirth. This is Palingenesis Reverie, a quiet renewal, a sacred remembering, and a promise that even after everything, we rise again.
+                                    Anwesha returns not as an ending, but as a
+                                    rebirth. This is Palingenesis Reverie, a
+                                    quiet renewal, a sacred remembering, and a
+                                    promise that even after everything, we rise
+                                    again.
                                 </p>
 
                                 <div className={styles.cta_button}>
@@ -1180,7 +1176,9 @@ const IndexPage = () => {
 
                     <section className={styles.sponsors}>
                         <div className={styles.sponsors_title}>
-                            <h2 className={dmSerif.className}>Our Proud Sponsors</h2>
+                            <h2 className={dmSerif.className}>
+                                Our Proud Sponsors
+                            </h2>
                             <h3>Strengthening the Vision Together</h3>
                         </div>
                         <div className={styles.sponsors_images_slider}>
@@ -1188,12 +1186,15 @@ const IndexPage = () => {
                         </div>
                     </section>
 
-
                     {loadimg && (
                         <img width={200} src="/pics/jump.gif" alt="Scary GIF" />
                     )}
                     {loadimg && (
-                        <img width={50} src="/pics/final_h.gif" alt="Scary GIF" />
+                        <img
+                            width={50}
+                            src="/pics/final_h.gif"
+                            alt="Scary GIF"
+                        />
                     )}
                 </div>
             </div>

@@ -560,138 +560,143 @@ const Oursponsors = () => {
             },
         ],
         spons26: [
-            // {
-            //     partner: 'Associate & Event Partner',
-            //     sponsors: [
-            //         {
-            //             image: 'https://drive.google.com/uc?export=view&id=1dXMeVRz2jbkW4oFGbCYeNr2ooNPbx9Ox',
-            //             link: 'https://www.arista.com',
-            //         },
-            //     ],
-            // },
-            // {
-            //     partner: 'Banking Partner',
-            //     sponsors: [
-            //         {
-            //             // name: 'State Bank of India',
-            //             image: 'https://drive.google.com/uc?export=view&id=1MLfxr5ipb_m3VUkNCiAB3sc00hxz5fi-',
-            //             link: 'https://www.sbi.co.in',
-            //         },
-            //     ],
-            // },
             {
-                partner: 'Pronite & Fueling Partner',
+                partner: 'Awarness Partner',
                 sponsors: [
                     {
-                        // name: 'Indian Oil & XP95',
-                        image: 'https://drive.google.com/uc?export=view&id=1S8D9eehYFohjFcOB4acJxmBgc2q8ZQNk',
-                        link: 'https://www.iocl.com',
+                        name: 'PER',
+                        image: 'https://drive.google.com/uc?export=view&id=1l_vpcAfYAtr3AP4Md-paIDs8hCW63f8F',
+                        link: 'http://www.sudha.coop',
                     },
                 ],
             },
             {
-                partner: 'Cultural Partner',
+                partner: 'Banking Partner',
                 sponsors: [
                     {
-                        // name: 'Spic Macay',
-                        image: 'https://drive.google.com/uc?export=view&id=1a18oT-fdAI_A5oOjKEqAkJYqxsqHhFLf',
-                        link: 'https://www.instagram.com/spicmacayofficial/?hl=en',
+                        name: 'ICICI',
+                        image: 'https://drive.google.com/uc?export=view&id=1OcvrKTeQ8phRXxsWu0YcyzoAab1mHR49',
+                        link: 'https://www.icici.bank.in',
+                    },
+                    {
+                        name: 'PNB',
+                        image: 'https://drive.google.com/uc?export=view&id=1PXcineBGikMCaFLUoTTuUQaym8pJ1Sc6',
+                        link: 'https://pnb.bank.in',
+                    },
+                    {
+                        name: 'SBI',
+                        image: 'https://drive.google.com/uc?export=view&id=1SLrXJ80AVdQpPUF13I0b7NXbg1v7Nj_U',
+                        link: 'https://sbi.bank.in',
+                    },
+                    {
+                        name: 'HDFC',
+                        image: 'https://drive.google.com/uc?export=view&id=1Z5NoN4Vmqn1fIhUKDLP_sHYEq4q-94Yp',
+                        link: 'https://www.hdfc.bank.in',
                     },
                 ],
             },
             {
-                partner: 'Strategic Partners',
+                partner: 'E-Governance Partner',
                 sponsors: [
                     {
-                        // name: 'Software Technology Parks of India',
-                        image: 'https://drive.google.com/uc?export=view&id=1tCIRaCaE8h8jSht2kXvrOI8Df_5CSD42',
-                        link: 'https://stpi.in',
-                    },
-                    {
-                        // name: 'Department of Industries',
-                        image: 'https://drive.google.com/uc?export=view&id=1FOtkwzHkA74tK7uMzHYaxSbz8W-N40EN',
-                        link: '',
-                    },
-                    {
-                        // name: 'Startup Bihar',
-                        image: 'https://drive.google.com/uc?export=view&id=1Vbu1tCEMNPzoeOqpydOcOSxHlPzVz3up',
-                        link: 'https://startup.bihar.gov.in/',
-                    },
-                    {
-                        // name: 'Bihar Tourism',
-                        image: 'https://drive.google.com/uc?export=view&id=1pRqsKrhyTbhOpnxnNOKNTVwQxW4krm-L',
-                        link: 'https://tourism.bihar.gov.in',
-                    },
-                    {
-                        // name: 'Public Health Engineering Department, Bihar',
-                        image: 'https://drive.google.com/uc?export=view&id=1oX-0boxmmSYbzBAVuPGMzUujaru3wm5D',
-                        link: 'http://phed.bih.nic.in',
-                    },
-                    {
-                        // name: 'Bihar State AIDS Control Society',
-                        image: 'https://drive.google.com/uc?export=view&id=1yCcmexPef2xI3lQXo7wJAzliDEyUIxh-',
-                        link: 'http://bsacs.in',
-                    },
-                    {
-                        // name: 'Bihar State Building Construction Corporation Limited',
-                        image: 'https://drive.google.com/uc?export=view&id=12rzaQ86RQfHFE_T0XGc-c8uRi_sQILRZ',
-                        link: 'https://bsbccl.bihar.gov.in',
-                    },
-                    {
-                        // name: 'Ceigall India Limited',
-                        image: 'https://drive.google.com/uc?export=view&id=1CxQTY0H12QpCqC0YziCUZrpCFTnZkTsB',
-                        link: 'https://ceigall.com',
+                        name: 'BELTRON',
+                        image: 'https://drive.google.com/uc?export=view&id=12QRWpz1VcmGWjpzEhJjY2nWklnMSPyB5',
+                        link: 'https://bsedc.bihar.gov.in/en/',
                     },
                 ],
             },
             {
-                partner: 'Food Partners',
+                partner: 'Wellness Partner',
                 sponsors: [
                     {
-                        // name: 'KFC',
-                        image: 'https://drive.google.com/uc?export=view&id=1wujyrcqa-j8QVYTJ8aA6NAP8mGQS2w5Z',
-                        link: 'https://online.kfc.co.in/',
-                    },
-                    {
-                        // name: 'Waffcha',
-                        image: 'https://drive.google.com/uc?export=view&id=1mX_WeCIywRV838QPn8AywiEWTSXSzMbM',
-                        link: 'https://www.waffcha.com/',
+                        name: 'SHS',
+                        image: 'https://drive.google.com/uc?export=view&id=1URhEbkKWoYat8VcvzZRuklBAtnD42G_j',
+                        link: 'https://shs.bihar.gov.in',
                     },
                 ],
             },
             {
-                partner: 'Knowledge Partner',
+                partner: 'Infrastructure Partner',
                 sponsors: [
                     {
-                        // name: 'Konnifel',
-                        image: 'https://drive.google.com/uc?export=view&id=1PSx1RqfdGkvXoKL4e11PuG8X_ORouj4Z',
-                        link: 'https://konnifel.com',
+                        name: 'BRPNNL',
+                        image: 'https://drive.google.com/uc?export=view&id=1k_iwlhOsIEFMw-iJ2YAh98QEDCHgtAi5',
+                        link: 'https://brpnnl.bihar.gov.in',
                     },
                 ],
             },
-
             {
-                partner: 'Media Partners',
+                partner: 'Insurance Partner',
                 sponsors: [
                     {
-                        name: 'Garda Patna',
-                        image: 'https://drive.google.com/uc?export=view&id=1VIItQYV-XlG0gld1B_Z1aRPyOmgqQVhV',
-                        link: 'https://www.instagram.com/gardapatna/',
+                        name: 'LIC',
+                        image: 'https://drive.google.com/uc?export=view&id=1tpyLgLBAxsmKnhxiXooqcf8GAKAMMIgM',
+                        link: 'https://licindia.in/hi/buy-online?utm_source=Google&utm_medium=Banner&utm_campaign=PD_LIC_Google_Search_Generic_Jan_Feb_2026&gad_source=1&gad_campaignid=23444935627&gbraid=0AAAAAqqtO5qooHSrKyOOkiODnHA96pXt4&gclid=CjwKCAiA1obMBhAbEiwAsUBbIlkQAYskDW609n6nbzEB_AbR5FadMIozie7C3rC1g-yMln4uTYjEEBoCRnkQAvD_BwE',
+                    },
+                ],
+            },
+            {
+                partner: 'Housing Partner',
+                sponsors: [
+                    {
+                        name: 'RERA',
+                        image: 'https://drive.google.com/uc?export=view&id=18dIDe9EUzqScqL1_vAONFhAsGG4PmRF4',
+                        link: 'https://rera.bihar.gov.in',
+                    },
+                ],
+            },
+            {
+                partner: 'Associate Partner',
+                sponsors: [
+                    {
+                        name: 'Arista',
+                        image: 'https://drive.google.com/uc?export=view&id=1TpQ19hmSOS2TNUJi6oidSw7Y602ft2El',
+                        link: 'https://www.arista.com/en/',
+                    },
+                ],
+            },
+            {
+                partner: 'Fragrance Partner',
+                sponsors: [
+                    {
+                        name: 'Denver',
+                        image: 'https://drive.google.com/uc?export=view&id=1hWWaY3ziGTs2fAtamI4muzcRP4kQkD7G',
+                        link: 'https://denverformen.com',
+                    },
+                ],
+            },
+            {
+                partner: 'Strategic Partenr',
+                sponsors: [
+                    {
+                        name: 'Ecofit',
+                        image: 'https://drive.google.com/uc?export=view&id=15CbVUgi5i_ARRAtobM9_Pn2GjLyBjaAp',
+                        link: 'https://theecofit.com',
                     },
                     {
-                        // name: 'Asian Times',
-                        image: 'https://drive.google.com/uc?export=view&id=1vYUNAIOyvqXlwoeamDbfaq0aKHN7e5hc',
-                        link: 'https://asiantimes.in/',
+                        name: 'Bsacs',
+                        image: 'https://drive.google.com/uc?export=view&id=1eY1Kfmj6-48BvKbezYjLBLLxR5UD0-Dj',
+                        link: 'https://bsacs.bihar.gov.in/',
                     },
                     {
-                        // name: 'Explore Bihar',
-                        image: 'https://drive.google.com/uc?export=view&id=1qqUiTYE_DT4W2KjzodLJak9EE1R7TfLe',
-                        link: 'https://www.instagram.com/explore_bihar/?hl=en',
+                        name: 'IOCL',
+                        image: 'https://drive.google.com/uc?export=view&id=1pHeNDNOUVdQmBgv5012bWpeGXjZ6vOJu',
+                        link: 'https://iocl.com',
                     },
                     {
-                        name: 'Patna Beats',
-                        image: 'https://drive.google.com/uc?export=view&id=10oF_KynDEuXJTsiBOo-U1XBvMrAMMkeP',
-                        link: 'https://www.patnabeats.com/lander',
+                        name: 'Sichai',
+                        image: 'https://drive.google.com/uc?export=view&id=1qJfVG_fdIyZxQrURGjUJIefdj_EXJnvX',
+                        link: 'https://wrd.bihar.gov.in',
+                    },
+                ],
+            },
+            {
+                partner: 'Snacking Partner',
+                sponsors: [
+                    {
+                        name: 'Shee Foods',
+                        image: 'https://drive.google.com/uc?export=view&id=1XvW-FVYrOL8aZCsXs4Urw4FzEO7DMjBm',
+                        link: 'https://shhefood.com',
                     },
                 ],
             },
@@ -699,18 +704,29 @@ const Oursponsors = () => {
                 partner: 'Official Music Streaming Partner',
                 sponsors: [
                     {
-                        image: 'https://drive.google.com/uc?export=view&id=1Bmf3E_gAowCSYOYTWcejKUkHd4xOHJaf',
+                        name: 'Jio Saavn',
+                        image: '/sponsors/2026/jiosaavn.jpeg',
                         link: 'https://www.jiosaavn.com',
                     },
                 ],
             },
             {
-                partner: 'Biking Partner',
+                partner: 'Hydration Partner',
                 sponsors: [
                     {
-                        // name: 'KTM',
-                        image: 'https://drive.google.com/uc?export=view&id=1kJCVCocwlbbqFqnMQZYKroZJrC1E-7kU',
-                        link: 'https://www.ktm.com',
+                        name: 'HPCL',
+                        image: 'https://drive.google.com/uc?export=view&id=1sNg1jeEC5MRsFseSgM7VXPH8iwbBUTOD',
+                        link: 'https://sales.hpcl.co.in/bportal/index_sales.jsp#',
+                    },
+                ],
+            },
+            {
+                partner: 'Registration Partner',
+                sponsors: [
+                    {
+                        name: 'Unstop',
+                        image: 'https://drive.google.com/uc?export=view&id=1pNXnnkDvLYUYUqU7-dh_ZDxLqZToHjxn',
+                        link: 'https://unstop.com',
                     },
                 ],
             },
@@ -718,79 +734,179 @@ const Oursponsors = () => {
                 partner: 'Workshop Partner',
                 sponsors: [
                     {
-                        image: 'https://drive.google.com/uc?export=view&id=1MwgAsHfhTbylFntL0pBjTU992YKzAShA',
-                        link: 'https://tech-gyan.in/',
+                        name: 'Shish',
+                        image: 'https://drive.google.com/uc?export=view&id=1BqokvuSQnMepjv0y41KTlgcCKeaMuAWO',
+                        link: 'https://shishtechnology.com',
                     },
                 ],
             },
             {
-                partner: 'Photography Partner',
+                partner: 'Technology Partner',
                 sponsors: [
                     {
-                        image: 'https://drive.google.com/uc?export=view&id=1G3NIuTFl_Rl-tSy-etc05p6yt5kusNPO',
-                        link: 'https://www.fujifilm.com/in/en/consumer/instax',
+                        name: 'IDnetify',
+                        image: 'https://drive.google.com/uc?export=view&id=1CBELU9HNCW-9UPzF5aFNduSti6FT0WO-',
+                        link: 'https://www.idnetify.com/',
                     },
                 ],
             },
             {
-                partner: 'Education Partner',
+                partner: 'Elegance Partner',
                 sponsors: [
                     {
-                        image: 'https://drive.google.com/uc?export=view&id=1mjlgk_6CMinLARP22Q72fTO3bzPXMP8X',
-                        link: 'https://www.instagram.com/civilsphodo/',
+                        name: 'Haven',
+                        image: 'https://drive.google.com/uc?export=view&id=1ER70uJpKmRnH8AWQN3xok84_Sesi5zHw',
+                        link: 'https://www.haven.com/',
                     },
                 ],
             },
-
             {
-                partner: 'Self Care Partner',
+                partner: 'Social impact partner',
                 sponsors: [
                     {
-                        image: 'https://drive.google.com/uc?export=view&id=1Hw-atUyrcs5ZQXb3rp84nx3t55LYGmNe',
-                        link: 'https://smartandhandsome.in/',
+                        name: 'Umeed',
+                        image: 'https://drive.google.com/uc?export=view&id=1WJ4_WS3-x-BqtCItSSqQ2AxtxNX723vm',
+                        link: 'https://umeed.org.in/',
                     },
                 ],
             },
-
             {
-                partner: 'Event Sponsor',
+                partner: 'IT Partner',
                 sponsors: [
                     {
-                        image: 'https://drive.google.com/uc?export=view&id=1rAyeAtwSJeSXSXaf3SHaSM2e0KFLUJxH',
-                        link: 'https://finvasia.com',
-                    },
-                    {
-                        // khadi bihar
-                        image: 'https://drive.google.com/uc?export=view&id=1SVi0330iEG31s0sOTjcemIyfJwFG-mwu',
-                        link: 'https://www.biharkhadi.com/',
-                    },
-                    {
-                        image: 'https://drive.google.com/uc?export=view&id=179PmT23fZr1DF4yHGkw7JQxQVbqAn9hU',
-                        link: 'https://www.plushforher.com/',
-                    },
-                    {
-                        image: 'https://drive.google.com/uc?export=view&id=1nclvMpEH7K9obHTvJKPoGVFFrJ8isq2b',
-                        link: 'https://www.instagram.com/dop.aminestore/',
-                    },
-                    {
-                        image: 'https://drive.google.com/uc?export=view&id=1KPRkyISX-Zyv6ILRi8gSYBgLoNC0F2VN',
-                        link: 'https://www.instagram.com/priyankas_fashionvilla_/',
+                        name: 'DIT',
+                        image: 'https://drive.google.com/uc?export=view&id=1i3YuJQMgDqE6ig0JqZAEE0Fe_S9Kn0GD',
+                        link: 'https://ditindia.com',
                     },
                 ],
             },
-
             {
-                partner: 'Key Sponsors',
+                partner: 'Power Partner',
                 sponsors: [
                     {
-                        // name: 'Sudha',
-                        image: 'https://drive.google.com/uc?export=view&id=1g26UGW2z-m4qkJKeF4Ug06dWHcwR8Vlr',
-                        link: 'http://www.sudha.coop',
+                        name: 'NTPC',
+                        image: '/sponsors/2026/National_Thermal_Power_logo.svg',
+                        link: 'https://ntpc.co.in',
                     },
+                ],
+            },
+            {
+                partner: 'Flashmob Partner',
+                sponsors: [
                     {
-                        // name: 'Red Bull',
-                        image: 'https://drive.google.com/uc?export=view&id=1AWiAE20it80F2XaBcx2X6QPHlB932hgz',
-                        link: 'https://www.redbull.com',
+                        name: 'PnM',
+                        image: 'https://drive.google.com/uc?export=view&id=1xcQdl747tYi3ZY3uxeecoVVXjHpLn0J_',
+                        link: 'www.pnmmall.com',
+                    },
+                ],
+            },
+            {
+                partner: 'Health Partner',
+                sponsors: [
+                    {
+                        name: 'Ruban',
+                        image: 'https://drive.google.com/uc?export=view&id=18O2pdC3iAelrCxZATs-lZ1ySKyPR7nUp',
+                        link: 'https://rubanhospitals.com',
+                    },
+                ],
+            },
+            {
+                partner: 'Adventure Partner',
+                sponsors: [
+                    {
+                        name: 'Jalalpur Fun',
+                        image: 'https://drive.google.com/uc?export=view&id=1wMgI-ijHi7fF6IbNzxtfN-JHhUdUBXja',
+                        link: 'https://www.jalalpurfun.in/package.php',
+                    },
+                ],
+            },
+            {
+                partner: 'Cultural Partner',
+                sponsors: [
+                    {
+                        name: 'Art and Culture',
+                        image: 'https://drive.google.com/uc?export=view&id=1YhJLV3VoL9o4lNF8MSf0jqNmOr10EmRs',
+                        link: 'https://state.bihar.gov.in/yac/CitizenHome.html',
+                    },
+                ],
+            },
+            {
+                partner: 'Energy Partner',
+                sponsors: [
+                    {
+                        name: 'RedBull',
+                        image: 'https://drive.google.com/uc?export=view&id=1UaIXFovMDArchg1xgKpO6jN6kx5Je2yD',
+                        link: 'https://www.redbull.com/in-en',
+                    },
+                ],
+            },
+            {
+                partner: 'Construction Partner',
+                sponsors: [
+                    {
+                        name: 'BCD',
+                        image: '/sponsors/2026/bcd.jpeg',
+                        link: 'https://state.bihar.gov.in/bcd/CitizenHome.html',
+                    },
+                ],
+            },
+            {
+                partner: 'Dairy Partner',
+                sponsors: [
+                    {
+                        name: 'COMFED',
+                        image: '/sponsors/2026/comfed.jpeg',
+                        link: 'https://erp.comfed.co.in',
+                    },
+                ],
+            },
+            {
+                partner: 'Amusement Partner',
+                sponsors: [
+                    {
+                        name: 'Carnival',
+                        image: '/sponsors/2026/carnival.jpeg',
+                        link: 'www.carnival.com',
+                    },
+                ],
+            },
+            {
+                partner: 'Knowledge Partner',
+                sponsors: [
+                    {
+                        name: 'Eduxlabs',
+                        image: 'https://drive.google.com/uc?export=view&id=1TewMkN2e3bI_-ahRpD3sWk5J_7hvnj2Q',
+                        link: 'https://www.eduxlabs.com',
+                    },
+                ],
+            },
+            {
+                partner: 'Cinema Partner',
+                sponsors: [
+                    {
+                        name: 'Connplex',
+                        image: '/sponsors/2026/connplex.jpeg',
+                        link: 'https://ticketing.theconnplex.com',
+                    },
+                ],
+            },
+            {
+                partner: 'Innovation Partner',
+                sponsors: [
+                    {
+                        name: 'IC IIT Patna',
+                        image: 'https://drive.google.com/uc?export=view&id=1Y5m4LFHEMFWFDJPhsZSpIT02P0U8qU1e',
+                        link: 'https://iciitp.com',
+                    },
+                ],
+            },
+            {
+                partner: 'Summit Partner',
+                sponsors: [
+                    {
+                        name: 'India Pre AI Summit',
+                        image: '/sponsors/2026/aisummit.jpeg',
+                        link: 'https://impact.indiaai.gov.in',
                     },
                 ],
             },
@@ -980,6 +1096,34 @@ const Oursponsors = () => {
                         OUR SPONSORS
                     </h2>
                     <h4 className={styles.tittle_sponsors}>Title Sponsors</h4>
+                    {/* --- Logic Fix: Myntra Card sirf 'spons26' (Current Year) ke liye --- */}
+                    {year === 'spons26' && (
+                        <div className={styles.sponsorWrapper}>
+                            <a
+                                href="https://www.myntra.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.sponsorCard}
+                            >
+                                <div className={styles.logoBox}>
+                                    <Image
+                                        src="/sponsors/2026/myntra.png"
+                                        alt="Myntra Logo"
+                                        width={580}
+                                        height={220}
+                                        style={{ objectFit: 'contain' }}
+                                    />
+                                </div>
+
+                                <div className={styles.sponsorText}>
+                                    <h3>Myntra</h3>
+                                    <p>Title Sponsor</p>
+                                </div>
+                            </a>
+                        </div>
+                    )}
+
+                    {/* --- Dropdown Logic (Ye hamesha dikhega taaki user switch kar sake) --- */}
                     <div className={styles.dropdownContainer} ref={dropdownRef}>
                         <button
                             onClick={toggleDropdown}
@@ -990,16 +1134,6 @@ const Oursponsors = () => {
                         </button>
                         {isOpen && (
                             <div className={styles.dropdownContent}>
-                                {/* <a
-                                    onClick={() => setYear('spons23')}
-                                    className={
-                                        year === 'spons23'
-                                            ? styles.disabled
-                                            : ''
-                                    }
-                                >
-                                    2023-2024
-                                </a> */}
                                 <a
                                     onClick={() => setYear('spons24')}
                                     className={
@@ -1074,123 +1208,108 @@ const Oursponsors = () => {
                     </div> */}
                     <div className={styles.coordinators}>
                         <div className={styles.picContainer}>
-                            {year === 'spons26' ||'spons25' || year === 'spons24'
-                                ? data[year]?.map((category, index) => (
-                                      <div
-                                          key={index}
-                                          className={styles.partnerGroup}
-                                      >
-                                          <h3 className={styles.partnerHeading}>
-                                              {category.partner}
-                                          </h3>
-                                          <div className={styles.sponsorGrid}>
-                                              {category.sponsors.map(
-                                                  (sponsor, i) => (
-                                                      <a
-                                                          key={i}
-                                                          href={sponsor.link}
-                                                          target="_blank"
-                                                          rel="noreferrer"
-                                                          style={{
-                                                              color: 'black',
-                                                              textDecoration:
-                                                                  'none',
-                                                          }}
-                                                      >
-                                                          <div
-                                                              className={
-                                                                  styles.teamCard
-                                                              }
-                                                          >
-                                                              <div
-                                                                  className={
-                                                                      styles.teamImage
-                                                                  }
-                                                              >
-                                                                  <Image
-                                                                      src={
-                                                                          sponsor.image
-                                                                      }
-                                                                      className={
-                                                                          styles.memberImage
-                                                                      }
-                                                                      height={
-                                                                          220
-                                                                      }
-                                                                      width={
-                                                                          220
-                                                                      }
-                                                                      alt={
-                                                                          sponsor.name
-                                                                      }
-                                                                  />
-                                                              </div>
-                                                              <div
-                                                                  className={
-                                                                      styles.teamMemberDetails
-                                                                  }
-                                                              >
-                                                                  <div
-                                                                      className={
-                                                                          styles.memberName
-                                                                      }
-                                                                  >
-                                                                      {
-                                                                          sponsor.name
-                                                                      }
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </a>
-                                                  )
-                                              )}
-                                          </div>
-                                      </div>
-                                  ))
-                                : data[year]?.map((sponsor, index) => (
-                                      <a
-                                          key={index}
-                                          href={sponsor.link}
-                                          target="_blank"
-                                          rel="noreferrer"
-                                          style={{
-                                              color: 'black',
-                                              textDecoration: 'none',
-                                          }}
-                                      >
-                                          <div className={styles.teamCard}>
-                                              <div className={styles.teamImage}>
-                                                  <Image
-                                                      src={sponsor.image}
-                                                      className={
-                                                          styles.memberImage
-                                                      }
-                                                      height={220}
-                                                      width={220}
-                                                      alt={sponsor.name}
-                                                  />
-                                              </div>
-                                              <div
-                                                  className={
-                                                      styles.teamMemberDetails
-                                                  }
-                                              >
-                                                  <div
-                                                      className={
-                                                          styles.memberName
-                                                      }
-                                                  >
-                                                      {sponsor.name}
-                                                  </div>
-                                                  <div
-                                                      className={styles.partner}
-                                                  >
-                                                      {sponsor.partner}
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </a>
-                                  ))}
+                            {/* Logic Fix: Check if year is in the list of grouped years */}
+                            {['spons26', 'spons25', 'spons24'].includes(
+                                year
+                            ) ? (
+                                // --- BRANCH 1: Grouped by Category (Newer Years) ---
+                                data[year]?.map((category, index) => (
+                                    <div
+                                        key={index}
+                                        className={styles.partnerGroup}
+                                    >
+                                        {/* Category Title (e.g. Banking Partner) */}
+                                        <h3 className={styles.partnerHeading}>
+                                            {category.partner}
+                                        </h3>
+
+                                        <div className={styles.sponsorGrid}>
+                                            {category.sponsors.map(
+                                                (sponsor, i) => (
+                                                    <a
+                                                        key={i}
+                                                        href={sponsor.link}
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        className={
+                                                            styles.sponsorCard
+                                                        } // Applied New Style
+                                                    >
+                                                        <div
+                                                            className={
+                                                                styles.logoBox
+                                                            }
+                                                        >
+                                                            <Image
+                                                                src={
+                                                                    sponsor.image
+                                                                }
+                                                                alt={
+                                                                    sponsor.name
+                                                                }
+                                                                width={220}
+                                                                height={160}
+                                                                style={{
+                                                                    objectFit:
+                                                                        'contain',
+                                                                    padding:
+                                                                        '10px',
+                                                                }}
+                                                            />
+                                                        </div>
+
+                                                        <div
+                                                            className={
+                                                                styles.sponsorText
+                                                            }
+                                                        >
+                                                            <h3>
+                                                                {sponsor.name}
+                                                            </h3>
+                                                            {/* If the individual sponsor has a specific partner tag, show it, else show category */}
+                                                            <p>
+                                                                {sponsor.partner ||
+                                                                    category.partner}
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                )
+                                            )}
+                                        </div>
+                                    </div>
+                                ))
+                            ) : (
+                                // --- BRANCH 2: Flat List (Older Years) ---
+                                <div className={styles.sponsorGrid}>
+                                    {data[year]?.map((sponsor, index) => (
+                                        <a
+                                            key={index}
+                                            href={sponsor.link}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className={styles.sponsorCard} // Applied New Style
+                                        >
+                                            <div className={styles.logoBox}>
+                                                <Image
+                                                    src={sponsor.image}
+                                                    alt={sponsor.name}
+                                                    width={220}
+                                                    height={160}
+                                                    style={{
+                                                        objectFit: 'contain',
+                                                        padding: '10px',
+                                                    }}
+                                                />
+                                            </div>
+
+                                            <div className={styles.sponsorText}>
+                                                <h3>{sponsor.name}</h3>
+                                                <p>{sponsor.partner}</p>
+                                            </div>
+                                        </a>
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

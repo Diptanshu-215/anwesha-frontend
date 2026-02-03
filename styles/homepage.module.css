@@ -860,7 +860,7 @@
     margin-left: auto;
     margin-right: auto;
     flex-shrink: 0;
-    background: url('/pics/merch_comb.png') transparent 50% / cover no-repeat;
+    background: url('/pics/merchf.svg') transparent 50% / cover no-repeat;
     z-index: 9;
     aspect-ratio: 2898 / 2454;
 }

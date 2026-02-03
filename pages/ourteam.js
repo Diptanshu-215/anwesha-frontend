@@ -314,6 +314,13 @@ export default function Ourteam() {
                 email: 'tanish_2301me49@iitp.ac.in',
             },
             {
+                name: 'Aditya Satpute',
+                image: '/team/aditya.jpeg',
+                instagram: 'https://www.instagram.com/aditya_satpute42?igsh=MTQwY3l1Z2tuOGg5Yw==',
+                linkedin: 'https://www.linkedin.com/in/aditya-sat?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+                email: 'adityaSatpute@gmail.com',
+            },
+            {
                 name: 'Somya Shourya',
                 image: '/team/somyaShourya.jpg',
                 instagram: 'https://www.instagram.com/anwesha_iitpatna/',
