@@ -830,16 +830,16 @@ const Oursponsors = () => {
                     },
                 ],
             },
-            {
-                partner: 'Energy Partner',
-                sponsors: [
-                    {
-                        name: 'RedBull',
-                        image: 'https://drive.google.com/uc?export=view&id=1UaIXFovMDArchg1xgKpO6jN6kx5Je2yD',
-                        link: 'https://www.redbull.com/in-en',
-                    },
-                ],
-            },
+            // {
+            //     partner: 'Energy Partner',
+            //     sponsors: [
+            //         {
+            //             name: 'RedBull',
+            //             image: 'https://drive.google.com/uc?export=view&id=1UaIXFovMDArchg1xgKpO6jN6kx5Je2yD',
+            //             link: 'https://www.redbull.com/in-en',
+            //         },
+            //     ],
+            // },
             {
                 partner: 'Construction Partner',
                 sponsors: [
@@ -1247,8 +1247,8 @@ const Oursponsors = () => {
                                                                 alt={
                                                                     sponsor.name
                                                                 }
-                                                                width={220}
-                                                                height={160}
+                                                                width={140}
+                                                                height={130}
                                                                 style={{
                                                                     objectFit:
                                                                         'contain',
