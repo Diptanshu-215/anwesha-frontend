@@ -1247,7 +1247,7 @@ const Oursponsors = () => {
                                                                 alt={
                                                                     sponsor.name
                                                                 }
-                                                                width={220}
+                                                                width={150}
                                                                 height={160}
                                                                 style={{
                                                                     objectFit:
