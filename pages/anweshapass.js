@@ -427,7 +427,7 @@ function Anweshapass() {
 
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <div className={styles.myntra_notice}>
-                        After buying the passes download Myntra app in your mobile and Register in the ClamFest by filling the form. <a href="https://myntra.onelink.me/dNYC/psb0vkzt?af_qr=true" target="_blank" rel="noopener noreferrer">Visit </a>
+                        After buying the passes download Myntra app in your mobile and Register in the GlamFest by filling the form. <a href="https://myntra.onelink.me/dNYC/psb0vkzt?af_qr=true" target="_blank" rel="noopener noreferrer">Visit </a>
                         <br />
                         <span className={styles.red_warning}>This step is mandatory for pronite entry.</span>
                     </div>
