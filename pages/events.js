@@ -103,32 +103,42 @@ const Events = () => {
     let exceludedEvents = [
     ]
 
+
     const sponsorImages = [
-        'https://drive.google.com/uc?export=view&id=1sk_dXvHZCLN5QGH8x5ae4vjunza7kdwo', // 'Allen Cooper'
-        'https://drive.google.com/uc?export=view&id=1sO3UC-XMYPAggeQ_P3loZCSxjbXKiTzk', // 'Bihar Tourism'
-        'https://drive.google.com/uc?export=view&id=1NzTZh6D-THmqConUzrZ2tvC3PaJU3Ets', // 'Biryani'
-        'https://drive.google.com/uc?export=view&id=10JmGTjBV_wliW6EoE4ozwnErEHNWZlGe', // 'Boult'
-        'https://drive.google.com/uc?export=view&id=1sD17yO4Zwm449d9ilTh9cPRoTeUd4tpy', // 'Bihar Rajya Pul Nirman Nigam'
-        'https://drive.google.com/uc?export=view&id=1yCcmexPef2xI3lQXo7wJAzliDEyUIxh-', // 'Bihar State Aids Control Society'
-        'https://drive.google.com/uc?export=view&id=1QZLHYPSJsMLQUKssih7HPqU5DwMGkcnc', // 'Bihar State Electronics Development Corporation'
-        'https://drive.google.com/uc?export=view&id=1UBiVYAM7HGv-tjMiyTofA7_ZCWS959MG', // 'Bihar Council on Science and Technology'
-        'https://drive.google.com/uc?export=view&id=1gg9J_on8QTdBs64u7TVwpwkc45ydw4Eq', // 'Department of Information Technology'
-        'https://drive.google.com/uc?export=view&id=1FOtkwzHkA74tK7uMzHYaxSbz8W-N40EN', // 'Department of Industries'
-        'https://drive.google.com/uc?export=view&id=1EKapSE6Q9xbDmycY0XecwCEHKjxUqZzO', // 'Dominos'
-        'https://drive.google.com/uc?export=view&id=1_LI78ee0KbgufhKeFSNQJSK7DzqG6T6q', // 'Fueling'
-        'https://drive.google.com/uc?export=view&id=1NXlcqgtvPwuaGzr0KxNWWaIGvNgUWDax', // 'Hydration'
-        'https://drive.google.com/uc?export=view&id=1Ge6eJMxha0lNxzF8AXW-aT8fP11FXJHA', // 'Kala Akchar'
-        'https://drive.google.com/uc?export=view&id=1lvnREbJ84WauvAhwBCrtO7P11HO-HUz9', // 'NHAI'
-        'https://drive.google.com/uc?export=view&id=13oaVnvbhSXcAZTTajdcwXVJ-4YjGtRBu', // 'NTPC'
-        'https://drive.google.com/uc?export=view&id=12n_N2f4FyomvBlLOELPnGhLjgPdzCfkb', // 'Red FM'
-        'https://drive.google.com/uc?export=view&id=13M6yySVuABxMP7pus6Hy2HVbianRpSnA', // 'Road Chef'
-        'https://drive.google.com/uc?export=view&id=1MLfxr5ipb_m3VUkNCiAB3sc00hxz5fi-', // 'State Bank of India'
-        'https://drive.google.com/uc?export=view&id=1Vbu1tCEMNPzoeOqpydOcOSxHlPzVz3up', // 'Startup Bihar'
-        'https://drive.google.com/uc?export=view&id=1AA3qGrGqqTbmfo2DAWmkAWXs8KWTDC07', // 'The Community Events'
-        'https://drive.google.com/uc?export=view&id=1Ub5Ntbu30Kp-1dpYSeB0M_QtbjGsiVpI', // 'Times of India'
-        'https://drive.google.com/uc?export=view&id=1mX_WeCIywRV838QPn8AywiEWTSXSzMbM', // 'Waffcha'
-        'https://drive.google.com/uc?export=view&id=183hiDaFhULaFvHURLFMCWBPmT7RjMRWI', // 'Wat A Burger'
-    ];
+        'https://drive.google.com/uc?export=view&id=1l_vpcAfYAtr3AP4Md-paIDs8hCW63f8F',
+        'https://drive.google.com/uc?export=view&id=1OcvrKTeQ8phRXxsWu0YcyzoAab1mHR49',
+        'https://drive.google.com/uc?export=view&id=1PXcineBGikMCaFLUoTTuUQaym8pJ1Sc6',
+        'https://drive.google.com/uc?export=view&id=1Z5NoN4Vmqn1fIhUKDLP_sHYEq4q-94Yp',
+        'https://drive.google.com/uc?export=view&id=1SLrXJ80AVdQpPUF13I0b7NXbg1v7Nj_U',
+        'https://drive.google.com/uc?export=view&id=12QRWpz1VcmGWjpzEhJjY2nWklnMSPyB5',
+        'https://drive.google.com/uc?export=view&id=1URhEbkKWoYat8VcvzZRuklBAtnD42G_j',
+        'https://drive.google.com/uc?export=view&id=1k_iwlhOsIEFMw-iJ2YAh98QEDCHgtAi5',
+        'https://drive.google.com/uc?export=view&id=1tpyLgLBAxsmKnhxiXooqcf8GAKAMMIgM',
+        'https://drive.google.com/uc?export=view&id=18dIDe9EUzqScqL1_vAONFhAsGG4PmRF4',
+        'https://drive.google.com/uc?export=view&id=1TpQ19hmSOS2TNUJi6oidSw7Y602ft2El',
+        'https://drive.google.com/uc?export=view&id=1hWWaY3ziGTs2fAtamI4muzcRP4kQkD7G',
+        'https://drive.google.com/uc?export=view&id=15CbVUgi5i_ARRAtobM9_Pn2GjLyBjaAp',
+        'https://drive.google.com/uc?export=view&id=1XvW-FVYrOL8aZCsXs4Urw4FzEO7DMjBm',
+        // 'https://drive.google.com/uc?export=view&id=1MRbo4eu7KrYeSjq090nmItjAbv_OQEok',
+        'https://drive.google.com/uc?export=view&id=1sNg1jeEC5MRsFseSgM7VXPH8iwbBUTOD',
+        'https://drive.google.com/uc?export=view&id=1pNXnnkDvLYUYUqU7-dh_ZDxLqZToHjxn',
+        'https://drive.google.com/uc?export=view&id=1BqokvuSQnMepjv0y41KTlgcCKeaMuAWO',
+        'https://drive.google.com/uc?export=view&id=1CBELU9HNCW-9UPzF5aFNduSti6FT0WO-',
+        'https://drive.google.com/uc?export=view&id=1ER70uJpKmRnH8AWQN3xok84_Sesi5zHw',
+        'https://drive.google.com/uc?export=view&id=1WJ4_WS3-x-BqtCItSSqQ2AxtxNX723vm',
+        'https://drive.google.com/uc?export=view&id=1i3YuJQMgDqE6ig0JqZAEE0Fe_S9Kn0GD',
+        'https://drive.google.com/uc?export=view&id=1xcQdl747tYi3ZY3uxeecoVVXjHpLn0J_',
+        'https://drive.google.com/uc?export=view&id=18O2pdC3iAelrCxZATs-lZ1ySKyPR7nUp',
+        'https://drive.google.com/uc?export=view&id=1wMgI-ijHi7fF6IbNzxtfN-JHhUdUBXja',
+        'https://drive.google.com/uc?export=view&id=1eY1Kfmj6-48BvKbezYjLBLLxR5UD0-Dj',
+        'https://drive.google.com/uc?export=view&id=1pHeNDNOUVdQmBgv5012bWpeGXjZ6vOJu',
+        'https://drive.google.com/uc?export=view&id=1qJfVG_fdIyZxQrURGjUJIefdj_EXJnvX',
+        'https://drive.google.com/uc?export=view&id=1YhJLV3VoL9o4lNF8MSf0jqNmOr10EmRs',
+        // 'https://drive.google.com/uc?export=view&id=1UaIXFovMDArchg1xgKpO6jN6kx5Je2yD',
+        'https://drive.google.com/uc?export=view&id=1TewMkN2e3bI_-ahRpD3sWk5J_7hvnj2Q',
+        'https://drive.google.com/uc?export=view&id=1Y5m4LFHEMFWFDJPhsZSpIT02P0U8qU1e',
+        'https://drive.google.com/uc?export=view&id=1wKHW-An6PKqP-wBUqPStms4IFg_sH5aR',
+    ]
     const host = process.env.NEXT_PUBLIC_HOST
     const mediaBase = process.env.NEXT_PUBLIC_MEDIA_BASE || host
     const [events, setEvents] = useState([])
