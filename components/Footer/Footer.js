@@ -122,7 +122,7 @@ const Footer = () => {
                   Contact us :
                 </span>
                 <br />
-                For Event issues: +91 7564985810
+                For Event issues: +91 832 963 8590<br />+91 7564985810
                 <br />
                 For Website issues: anweshatroubleshoot@gmail.com
                 <br />
