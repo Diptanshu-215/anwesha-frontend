@@ -338,19 +338,19 @@ function Anweshapass() {
         setEventActiveImageIndex((eventActiveImageIndex === pseudoEventImage.length - 1) ? 0 : (eventActiveImageIndex + 1))
     }
     function handlefestpass() {
-        // alert("Online registrations closed")
-        if (userData.isAuth) {
-            setisloading(true);
-            proniteRegistration('FESTPASS',
-                userData.state.user.email_id,
-                userData.state.user.phone_number,
-                userData.state.user.anwesha_id,
-                userData.state.user.user_type,
-                setisloading,
-                router)
-        } else {
-            router.push('/userLogin')
-        }
+        alert("Online registrations closed")
+        // if (userData.isAuth) {
+        //     setisloading(true);
+        //     proniteRegistration('FESTPASS',
+        //         userData.state.user.email_id,
+        //         userData.state.user.phone_number,
+        //         userData.state.user.anwesha_id,
+        //         userData.state.user.user_type,
+        //         setisloading,
+        //         router)
+        // } else {
+        //     router.push('/userLogin')
+        // }
     }
     return (
         // <div className={styles.parentContainer}>
