@@ -338,6 +338,7 @@ function Anweshapass() {
         setEventActiveImageIndex((eventActiveImageIndex === pseudoEventImage.length - 1) ? 0 : (eventActiveImageIndex + 1))
     }
     function handlefestpass() {
+        // alert("Online registrations closed")
         if (userData.isAuth) {
             setisloading(true);
             proniteRegistration('FESTPASS',
@@ -421,7 +422,7 @@ function Anweshapass() {
                     <p style={{ marginTop: '-15px' }}>🔮 Beware: Embrace the magic: Once you enter, reality fades. Hold on to your pass... it is your only anchor in this ocean of dreams.
 
                         {/* Hold on to your pass… it may be the only thing keeping you from vanishing into the abyss. */}
-                        </p>
+                    </p>
                     <br />
                 </div>
 
@@ -551,9 +552,9 @@ function Anweshapass() {
             {/* -------------------------------------DJ Night---------------------------------------- */}
 
             <section className={styles.cultural_Night}>
-                
+
                 <div className={styles.cultural_Night_body}>
-                    
+
                     <div>
                         <h2>Electric Euphoria: The Ultimate EDM Night</h2>
 
