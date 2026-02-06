@@ -157,7 +157,7 @@ function Profile() {
                 setAadhaarLoading(false)
                 setEditingAadhaar(false)
                 setAadhaarValue('')
-                
+
                 // Handle 409 Conflict - Aadhaar already added
                 if (error.status === 409) {
                     toast.error(error.message, {
@@ -199,26 +199,26 @@ function Profile() {
     useEffect(() => {
         const fetchMyntraStatus = async () => {
             if (!userData?.state?.user) return
-            
+
             try {
                 const authHeaders = userData?.getAuthHeaders
                     ? userData.getAuthHeaders()
                     : {}
-                
+
                 console.log('[Profile] Auth headers object:', authHeaders)
                 console.log('[Profile] Has Authorization header:', !!authHeaders.Authorization)
-                
+
                 var myHeaders = new Headers()
                 myHeaders.append('Content-Type', 'application/json')
                 Object.entries(authHeaders).forEach(([k, v]) =>
                     myHeaders.append(k, v)
                 )
-                
+
                 const response = await fetch(`${host}/sponsors/myntra-status/`, {
                     method: 'GET',
                     headers: myHeaders
                 })
-                
+
                 if (response.ok) {
                     const data = await response.json()
                     console.log('[Profile] Myntra status received:', data)
@@ -236,7 +236,7 @@ function Profile() {
                 setMyntraLoading(false)
             }
         }
-        
+
         fetchMyntraStatus()
     }, [userData?.state?.user])
 
@@ -309,58 +309,68 @@ function Profile() {
             />
             <div className={styles.mainContainer}>
                 <div className={styles.welcome}>WELCOME BACK!</div>
-                
-                {/* Myntra Registration Notice */}
-                {!myntraLoading && myntraStatus && myntraStatus.is_myntra_registered === false && (
-                    <div style={{
-                        backgroundColor: '#fff3cd',
-                        border: '2px solid #ffc107',
-                        borderRadius: '8px',
-                        padding: '20px',
-                        margin: '20px auto',
-                        maxWidth: '800px',
-                        textAlign: 'center'
-                    }}>
-                        <h3 style={{
-                            color: '#856404',
-                            marginBottom: '10px',
-                            fontSize: '20px',
-                            fontWeight: 'bold'
-                        }}>
-                            ⚠️ Myntra Registration Required for Pronite Entry
-                        </h3>
-                        <p style={{
-                            color: '#856404',
-                            marginBottom: '15px',
-                            fontSize: '16px'
-                        }}>
-                            You have not registered on Myntra yet. This is mandatory for pronite entry.
-                        </p>
-                        <a
-                            href="https://myntra.onelink.me/dNYC/psb0vkzt?af_qr=true"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{
-                                display: 'inline-block',
-                                backgroundColor: '#ff3f6c',
-                                color: 'white',
-                                padding: '12px 24px',
-                                borderRadius: '5px',
-                                textDecoration: 'none',
-                                fontWeight: 'bold',
-                                fontSize: '16px',
-                                cursor: 'pointer',
-                                transition: 'background-color 0.3s'
-                            }}
-                            onMouseOver={(e) => e.target.style.backgroundColor = '#e6395f'}
-                            onMouseOut={(e) => e.target.style.backgroundColor = '#ff3f6c'}
-                        >
-                            Register on Myntra App
-                        </a>
-                    </div>
-                )}
-                
+
                 <div className={styles.subContainer}>
+                    {/* Myntra Registration Notice */}
+                    {!myntraLoading && myntraStatus && myntraStatus.is_myntra_registered === false && (
+                        <div style={{
+                            backgroundColor: 'rgba(0, 0, 0, 0.6)',
+                            border: '1px solid #F2BF51',
+                            borderRadius: '8px',
+                            padding: '20px',
+                            margin: '20px auto',
+                            maxWidth: '800px',
+                            textAlign: 'center',
+                            fontFamily: "'Cormorant Garamond', serif"
+                        }}>
+                            <h3 style={{
+                                color: '#F2BF51',
+                                marginBottom: '10px',
+                                fontSize: '24px',
+                                fontWeight: 'bold',
+                                fontFamily: "'Cormorant Garamond', serif"
+                            }}>
+                                ⚠️ Myntra Registration Required for Pronite Entry
+                            </h3>
+                            <p style={{
+                                color: '#ffffff',
+                                marginBottom: '15px',
+                                fontSize: '20px',
+                                fontFamily: "'Cormorant Garamond', serif"
+                            }}>
+                                You have not registered on Myntra yet. This is mandatory for pronite entry.
+                            </p>
+                            <a
+                                href="https://myntra.onelink.me/dNYC/psb0vkzt?af_qr=true"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    display: 'inline-block',
+                                    backgroundColor: 'transparent',
+                                    color: '#F2BF51',
+                                    padding: '10px 24px',
+                                    borderRadius: '5px',
+                                    textDecoration: 'none',
+                                    fontWeight: 'bold',
+                                    fontSize: '18px',
+                                    cursor: 'pointer',
+                                    transition: 'all 0.3s',
+                                    fontFamily: "'Cormorant Garamond', serif",
+                                    border: '1px solid #F2BF51'
+                                }}
+                                onMouseOver={(e) => {
+                                    e.target.style.backgroundColor = '#F2BF51';
+                                    e.target.style.color = '#000';
+                                }}
+                                onMouseOut={(e) => {
+                                    e.target.style.backgroundColor = 'transparent';
+                                    e.target.style.color = '#F2BF51';
+                                }}
+                            >
+                                Register on Myntra App
+                            </a>
+                        </div>
+                    )}
                     <div className={styles.idandqr}>
                         <div
                             style={{
@@ -509,10 +519,10 @@ function Profile() {
                                     <span>Loading QR...</span>
                                 </div>
                             ) : qrcode ? (
-                                <img 
-                                    src={qrcode} 
-                                    width={200} 
-                                    height={200} 
+                                <img
+                                    src={qrcode}
+                                    width={200}
+                                    height={200}
                                     alt="QR Code"
                                     onError={() => {
                                         console.error('[Profile] Failed to load QR image')
