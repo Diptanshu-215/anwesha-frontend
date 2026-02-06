@@ -427,11 +427,7 @@ function Anweshapass() {
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <div className={styles.myntra_notice}>
-                        After buying the passes download Myntra app in your mobile and Register in the GlamFest by filling the form. <a href="https://myntra.onelink.me/dNYC/psb0vkzt?af_qr=true" target="_blank" rel="noopener noreferrer">Visit </a>
-                        <br />
-                        <span className={styles.red_warning}>This step is mandatory for pronite entry.</span>
-                    </div>
+
                     <div className={styles.passcontainer_hero}>
 
                         <div className={styles.passcontainer_background} />
@@ -560,9 +556,8 @@ function Anweshapass() {
 
                     </div>
                     <p>
-                        Prepare for a sonic storm that will shake the ground beneath your feet! We are gearing up to unleash a night of pulsating beats, blinding lasers, and infectious energy that will turn the campus into one massive dance floor. The master of the console who will lead this audio-visual spectacle is yet to be revealed. Keep your eyes peeled—a massive headliner announcement is dropping soon to ignite the night!
-                        <hr></hr>
-                        Soon to be Announced!!
+                        Prepare for a sonic storm that will shake the ground beneath your feet! We are gearing up to unleash a night of pulsating beats, blinding lasers, and infectious energy that will turn the campus into one massive dance floor. The master of the console who will lead this audio-visual spectacle is yet to be revealed. Keep your eyes peeled a massive headliner announcement is dropping soon to ignite the night!
+
                         {/* Anwesha&apos;s DJ Night brings an electrifying fusion of beats and energy, headlined by the sensational DJ Anshika. Get ready to lose yourself in pulsating rhythms, high-energy drops, and an unforgettable night of non-stop music. With heart-thumping bass and a euphoric atmosphere, this night promises an experience where the crowd moves as one, the lights sync with the beats, and every moment turns into a memory. Let the music take control—DJ Night at Anwesha is where the night truly comes alive! */}
                     </p>
                 </div>
