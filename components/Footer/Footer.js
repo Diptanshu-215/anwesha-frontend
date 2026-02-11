@@ -124,11 +124,7 @@ const Footer = () => {
                 <br />
                 For Event issues: +91 8825253741
                 <br />
-                For Website issues: anweshatroubleshoot@gmail.com
-                <br />
-                +91 9350180765
-                <br />
-                <br />
+           
                 <span style={{ color: "cyan" }}>Note: </span> If the site is
                 stuck, please clear site data or login in incognito.
               </h4>
